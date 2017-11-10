@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lumenausf/eclipse-workspace/Hello/build/Debug",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/hello.dir/src/hello.cpp.o -c /home/lumenausf/eclipse-workspace/Hello/src/hello.cpp",
+  "file": "/home/lumenausf/eclipse-workspace/Hello/src/hello.cpp"
+}
+]
