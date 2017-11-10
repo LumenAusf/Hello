@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/lumenausf/eclipse-workspace/Hello
 CMAKE_BINARY_DIR = /home/lumenausf/eclipse-workspace/Hello/build/Debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello.dir
+# Target rules for target CMakeFiles/Hello.dir
 
 # All Build rule for target.
-CMakeFiles/hello.dir/all:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles --progress-num=1,2 "Built target hello"
-.PHONY : CMakeFiles/hello.dir/all
+CMakeFiles/Hello.dir/all:
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/depend
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles --progress-num=1,2 "Built target Hello"
+.PHONY : CMakeFiles/Hello.dir/all
 
 # Include target in all.
-all: CMakeFiles/hello.dir/all
+all: CMakeFiles/Hello.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello.dir/rule: cmake_check_build_system
+CMakeFiles/Hello.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello.dir/rule
+.PHONY : CMakeFiles/Hello.dir/rule
 
 # Convenience name for target.
-hello: CMakeFiles/hello.dir/rule
+Hello: CMakeFiles/Hello.dir/rule
 
-.PHONY : hello
-
-# clean rule for target.
-CMakeFiles/hello.dir/clean:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
-.PHONY : CMakeFiles/hello.dir/clean
+.PHONY : Hello
 
 # clean rule for target.
-clean: CMakeFiles/hello.dir/clean
+CMakeFiles/Hello.dir/clean:
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/clean
+.PHONY : CMakeFiles/Hello.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Hello.dir/clean
 
 .PHONY : clean
 

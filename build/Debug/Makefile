@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello
+# Target rules for targets named Hello
 
 # Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
+Hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hello
+.PHONY : Hello
 
 # fast build rule for target.
-hello/fast:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+Hello/fast:
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/build
+.PHONY : Hello/fast
 
 src/hello.o: src/hello.cpp.o
 
@@ -129,7 +129,7 @@ src/hello.o: src/hello.cpp.o
 
 # target to build an object file
 src/hello.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.o
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/src/hello.cpp.o
 .PHONY : src/hello.cpp.o
 
 src/hello.i: src/hello.cpp.i
@@ -138,7 +138,7 @@ src/hello.i: src/hello.cpp.i
 
 # target to preprocess a source file
 src/hello.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.i
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/src/hello.cpp.i
 .PHONY : src/hello.cpp.i
 
 src/hello.s: src/hello.cpp.s
@@ -147,7 +147,7 @@ src/hello.s: src/hello.cpp.s
 
 # target to generate assembly for a file
 src/hello.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.s
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/src/hello.cpp.s
 .PHONY : src/hello.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... hello"
+	@echo "... Hello"
 	@echo "... edit_cache"
 	@echo "... src/hello.o"
 	@echo "... src/hello.i"
