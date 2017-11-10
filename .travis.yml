@@ -35,6 +35,7 @@ matrix:
 
     # works on Precise and Trusty
     - os: linux
+      language: cpp
       addons:
         apt:
           sources:
