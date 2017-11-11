@@ -186,12 +186,6 @@ Hello_BINARY_DIR:STATIC=/home/lumenausf/eclipse-workspace/Hello/build/Debug
 //Value Computed by CMake
 Hello_SOURCE_DIR:STATIC=/home/lumenausf/eclipse-workspace/Hello
 
-//Value Computed by CMake
-hello_BINARY_DIR:STATIC=/home/lumenausf/eclipse-workspace/Hello/build/Debug
-
-//Value Computed by CMake
-hello_SOURCE_DIR:STATIC=/home/lumenausf/eclipse-workspace/Hello
-
 
 ########################
 # INTERNAL cache entries
