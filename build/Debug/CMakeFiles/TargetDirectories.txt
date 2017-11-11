@@ -1,3 +1,0 @@
-/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles/rebuild_cache.dir
-/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles/Hello.dir
-/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles/edit_cache.dir
