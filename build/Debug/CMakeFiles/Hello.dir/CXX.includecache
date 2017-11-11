@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lumenausf/eclipse-workspace/Hello/src/hello.cpp
+/home/lumenausf/eclipse-workspace/Hello/hello.cpp
 cstdlib
 -
 iostream

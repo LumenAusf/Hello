@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lumenausf/eclipse-workspace/Hello/src/hello.cpp" "/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles/Hello.dir/src/hello.cpp.o"
+  "/home/lumenausf/eclipse-workspace/Hello/hello.cpp" "/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles/Hello.dir/hello.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

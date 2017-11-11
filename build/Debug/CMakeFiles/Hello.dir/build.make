@@ -57,38 +57,38 @@ include CMakeFiles/Hello.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Hello.dir/flags.make
 
-CMakeFiles/Hello.dir/src/hello.cpp.o: CMakeFiles/Hello.dir/flags.make
-CMakeFiles/Hello.dir/src/hello.cpp.o: ../../src/hello.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hello.dir/src/hello.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello.dir/src/hello.cpp.o -c /home/lumenausf/eclipse-workspace/Hello/src/hello.cpp
+CMakeFiles/Hello.dir/hello.cpp.o: CMakeFiles/Hello.dir/flags.make
+CMakeFiles/Hello.dir/hello.cpp.o: ../../hello.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hello.dir/hello.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello.dir/hello.cpp.o -c /home/lumenausf/eclipse-workspace/Hello/hello.cpp
 
-CMakeFiles/Hello.dir/src/hello.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello.dir/src/hello.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lumenausf/eclipse-workspace/Hello/src/hello.cpp > CMakeFiles/Hello.dir/src/hello.cpp.i
+CMakeFiles/Hello.dir/hello.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello.dir/hello.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lumenausf/eclipse-workspace/Hello/hello.cpp > CMakeFiles/Hello.dir/hello.cpp.i
 
-CMakeFiles/Hello.dir/src/hello.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello.dir/src/hello.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lumenausf/eclipse-workspace/Hello/src/hello.cpp -o CMakeFiles/Hello.dir/src/hello.cpp.s
+CMakeFiles/Hello.dir/hello.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello.dir/hello.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lumenausf/eclipse-workspace/Hello/hello.cpp -o CMakeFiles/Hello.dir/hello.cpp.s
 
-CMakeFiles/Hello.dir/src/hello.cpp.o.requires:
+CMakeFiles/Hello.dir/hello.cpp.o.requires:
 
-.PHONY : CMakeFiles/Hello.dir/src/hello.cpp.o.requires
+.PHONY : CMakeFiles/Hello.dir/hello.cpp.o.requires
 
-CMakeFiles/Hello.dir/src/hello.cpp.o.provides: CMakeFiles/Hello.dir/src/hello.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/src/hello.cpp.o.provides.build
-.PHONY : CMakeFiles/Hello.dir/src/hello.cpp.o.provides
+CMakeFiles/Hello.dir/hello.cpp.o.provides: CMakeFiles/Hello.dir/hello.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/hello.cpp.o.provides.build
+.PHONY : CMakeFiles/Hello.dir/hello.cpp.o.provides
 
-CMakeFiles/Hello.dir/src/hello.cpp.o.provides.build: CMakeFiles/Hello.dir/src/hello.cpp.o
+CMakeFiles/Hello.dir/hello.cpp.o.provides.build: CMakeFiles/Hello.dir/hello.cpp.o
 
 
 # Object files for target Hello
 Hello_OBJECTS = \
-"CMakeFiles/Hello.dir/src/hello.cpp.o"
+"CMakeFiles/Hello.dir/hello.cpp.o"
 
 # External object files for target Hello
 Hello_EXTERNAL_OBJECTS =
 
-Hello: CMakeFiles/Hello.dir/src/hello.cpp.o
+Hello: CMakeFiles/Hello.dir/hello.cpp.o
 Hello: CMakeFiles/Hello.dir/build.make
 Hello: CMakeFiles/Hello.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lumenausf/eclipse-workspace/Hello/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Hello"
@@ -99,7 +99,7 @@ CMakeFiles/Hello.dir/build: Hello
 
 .PHONY : CMakeFiles/Hello.dir/build
 
-CMakeFiles/Hello.dir/requires: CMakeFiles/Hello.dir/src/hello.cpp.o.requires
+CMakeFiles/Hello.dir/requires: CMakeFiles/Hello.dir/hello.cpp.o.requires
 
 .PHONY : CMakeFiles/Hello.dir/requires
 
