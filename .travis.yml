@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 matrix:
   include:
     # works on Precise and Trusty
@@ -15,6 +16,8 @@ matrix:
     # works on Precise and Trusty
     - os: linux
 =======
+=======
+>>>>>>> 0600dd3fdf826c8aeecb9a3f02d3e021c8fa2637
 # Use new trusty images, should yield newer compilers and packages
 sudo: required
 dist: precise
@@ -31,6 +34,9 @@ matrix:
             - g++-4.9
       env: COMPILER=g++-4.9
     - compiler: gcc
+<<<<<<< HEAD
+>>>>>>> 0600dd3fdf826c8aeecb9a3f02d3e021c8fa2637
+=======
 >>>>>>> 0600dd3fdf826c8aeecb9a3f02d3e021c8fa2637
       addons:
         apt:
@@ -39,15 +45,21 @@ matrix:
           packages:
             - g++-5
 <<<<<<< HEAD
+<<<<<<< HEAD
       env:
          - MATRIX_EVAL="CC=gcc-5 && CXX=g++-5"
 
     # works on Precise and Trusty
     - os: linux
+=======
+      env: COMPILER=g++-5
+    - compiler: clang
+>>>>>>> 0600dd3fdf826c8aeecb9a3f02d3e021c8fa2637
       addons:
         apt:
           sources:
             - ubuntu-toolchain-r-test
+<<<<<<< HEAD
           packages:
             - g++-6
       env:
@@ -55,10 +67,18 @@ matrix:
 
     # works on Precise and Trusty
     - os: linux
+=======
+            - llvm-toolchain-precise-3.6
+          packages:
+            - clang-3.6
+      env: COMPILER=clang++-3.6
+    - compiler: clang
+>>>>>>> 0600dd3fdf826c8aeecb9a3f02d3e021c8fa2637
       addons:
         apt:
           sources:
             - ubuntu-toolchain-r-test
+<<<<<<< HEAD
           packages:
             - g++-7
       env:
@@ -88,6 +108,14 @@ before_install:
       env: COMPILER=clang++-3.7
 
 before_install:
+=======
+            - llvm-toolchain-precise-3.7
+          packages:
+            - clang-3.7
+      env: COMPILER=clang++-3.7
+
+before_install:
+>>>>>>> 0600dd3fdf826c8aeecb9a3f02d3e021c8fa2637
   - sudo apt-get update -qq
   - sudo apt-get install -y libopencv-dev
 script:
@@ -97,4 +125,7 @@ script:
   - ./dkm_tests
   - ./dkm_bench
   
+<<<<<<< HEAD
+>>>>>>> 0600dd3fdf826c8aeecb9a3f02d3e021c8fa2637
+=======
 >>>>>>> 0600dd3fdf826c8aeecb9a3f02d3e021c8fa2637
