@@ -4,7 +4,7 @@
  *  Created on: 10 нояб. 2017 г.
  *      Author: lumenausf
  */
-#include <stdlib.h>
+#include <cstdlib>
 #include <iostream>
 
 int main(int, char**) {

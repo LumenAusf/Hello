@@ -7,7 +7,7 @@
 #IncludeRegexTransform: 
 
 /home/lumenausf/eclipse-workspace/Hello/src/hello.cpp
-stdlib.h
+cstdlib
 -
 iostream
 -
